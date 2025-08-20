@@ -45,21 +45,13 @@ I collaborate effectively with backend developers, designers, and stakeholders t
                   <p className="text-white">
                     I'm a lifelong learner and innovator, driven by a desire to
                     contribute to the developer community with new ideas and
-                    tools that deliver real value. As the creator of OlovaJS,
-                    I'm pushing the boundaries of JavaScript frameworks to
-                    empower developers worldwide.
+                    tools that deliver real value. 
                   </p>
 
                   <div className="mt-6 space-y-3">
                    
                     <div className="flex items-center gap-2">
-                      <img
-                        className="h-5 w-fit"
-                        src={OlovaLogo}
-                        alt="Olova Logo"
-                        height="20"
-                        width="auto"
-                      />
+                     
                       {/* <span className="text-white">OlovaJS</span> */}
                     </div>
                   </div>

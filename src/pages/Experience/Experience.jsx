@@ -67,7 +67,7 @@ const ExperienceSection = () => {
       company: "DocBot PVT LTD",
       period: "2024-Present",
       description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive Web Application and compony portfolio.",
+        " building and optimizing user interfaces with a focus on responsive and interactive Web Application and compony portfolio.",
     },
     // {
     //   icon: Code2,
