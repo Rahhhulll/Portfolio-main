@@ -14,16 +14,7 @@ const EducationSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const educationData = [
-    {
-      degree: "Diploma in Computer Engineering",
-      school: "R C Patel Polytechnic Shirpur",
-      mascot: "📘",
-      year: "2010-2021",
-      achievements: ["73%",],
-      skills: ["C", "C++", "DSA", "CSS"],
-      description:
-        "Learn Base Of Engineering.",
-    },
+  
     {
       degree: "BSC IT",
       school: "Sikkim Professional University",
@@ -33,6 +24,17 @@ const EducationSection = () => {
       skills: ["DSA", "C++", "SQL", "DBMS"],
       description:
         "Developed strong analytical and critical thinking skills through comprehensive study.",
+    },
+
+      {
+      degree: "Diploma in Computer Engineering",
+      school: "R C Patel Polytechnic Shirpur",
+      mascot: "📘",
+      year: "2010-2021",
+      achievements: ["73%",],
+      skills: ["C", "C++", "DSA", "CSS"],
+      description:
+        "Learn Base Of Engineering.",
     },
   ];
 

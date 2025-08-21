@@ -14,6 +14,17 @@ const projects = [
      githubLink: "https://github.com/Rahhhulll/gym.git",
     liveLink: "gym-brown-three-12.vercel.app",
   },
+
+    {
+    title: " Netflix First Page Demo",
+    description:
+      "A lightweight HTML, CSS,  creating beautiful, responsive UI components.",
+    src: "rock.jpg",
+    link: "https://i.postimg.cc/NMKP5N47/Screenshot-108.png",
+    color: "#5196fd",
+    //  githubLink: "https://github.com/Rahhhulll/gym.git",
+    liveLink: "netflix-ebon-theta.vercel.app",
+  },
   ];
 
 export default function Projects() {

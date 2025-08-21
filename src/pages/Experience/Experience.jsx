@@ -53,14 +53,7 @@ const ExperienceCard = ({
 
 const ExperienceSection = () => {
   const experiences = [
-    {
-      icon: Network,
-      title: "Software Developer",
-      company: "Mobicloud Technologies PVT LTD",
-      period: "2022 - 2024",
-      description:
-        "Worked as a Front-End Developer, building responsive and dynamic web applications using Angular (16/17), Angular Material, HTML, CSS, JavaScript, and TypeScript. Contributed to the company portfolio website and a diet management tool with multi-dashboard functionality, secure login, API integration, and optimized UI/UX design.",
-    },
+   
     {
       icon: Layers,
       title: "Software Developer",
@@ -68,6 +61,15 @@ const ExperienceSection = () => {
       period: "2024-Present",
       description:
         " Currently working as a Software Developer, creating scalable and user-friendly web applications with a focus on performance and responsive design. My role involves building dynamic UIs, integrating RESTful APIs, optimizing application performance, and collaborating with cross-functional teams to deliver high-quality products.",
+    },
+
+     {
+      icon: Network,
+      title: "Software Developer",
+      company: "Mobicloud Technologies PVT LTD",
+      period: "2022 - 2024",
+      description:
+        "Worked as a Front-End Developer, building responsive and dynamic web applications using Angular (16/17), Angular Material, HTML, CSS, JavaScript, and TypeScript. Contributed to the company portfolio website and a diet management tool with multi-dashboard functionality, secure login, API integration, and optimized UI/UX design.",
     },
   
   ];
