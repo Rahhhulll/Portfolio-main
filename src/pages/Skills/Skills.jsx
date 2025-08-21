@@ -3,27 +3,16 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import IconCloudDemo from "@/components/globe";
 import { Code2, Paintbrush, Database, Layout, Cpu, Cloud } from "lucide-react";
+import {  FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
 import {
-  FaReact,
-  FaNodeJs,
-  FaPython,
-  FaDocker,
-  FaGitAlt,
-  FaLinux,
-  FaFigma,
-  FaAws,
-} from "react-icons/fa";
-import {
-  SiNextdotjs,
+  SiJavascript,
+  SiAngular,
   SiTypescript,
   SiTailwindcss,
   SiPostgresql,
   SiMongodb,
-  SiGraphql,
-  SiJest,
   SiWebpack,
   SiRedux,
-  SiFirebase,
   SiVercel,
   SiVite,
 } from "react-icons/si";
@@ -71,10 +60,11 @@ const SkillsSection = () => {
       title: "Frontend Development",
       color: "text-blue-400",
       skills: [
+          { name: "JavaScript", icon: <SiJavascript className="w-4 h-4 text-yellow-400" /> },
         { name: "React", icon: <FaReact className="w-4 h-4 text-[#61DAFB]" /> },
         {
           name: "Angular",
-          icon: <SiNextdotjs className="w-4 h-4 text-white" />,
+          icon: <SiAngular className="w-4 h-4 text-red-600" />, // Angular red color
         },
         {
           name: "TypeScript",
@@ -200,14 +190,14 @@ const SkillsSection = () => {
           name: "SVG Animation",
           icon: <MdAnimation className="w-4 h-4 text-[#00C853]" />,
         },
-        {
-          name: "3D Modeling",
-          icon: <Cpu className="w-4 h-4 text-[#7C4DFF]" />,
-        },
-        {
-          name: "Motion Graphics",
-          icon: <MdAnimation className="w-4 h-4 text-[#FF6D00]" />,
-        },
+        // {
+        //   name: "3D Modeling",
+        //   icon: <Cpu className="w-4 h-4 text-[#7C4DFF]" />,
+        // },
+        // {
+        //   name: "Motion Graphics",
+        //   icon: <MdAnimation className="w-4 h-4 text-[#FF6D00]" />,
+        // },
       ],
     },
   ];

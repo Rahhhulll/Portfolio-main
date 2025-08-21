@@ -59,7 +59,7 @@ const ExperienceSection = () => {
       company: "Mobicloud Technologies PVT LTD",
       period: "2022 - 2024",
       description:
-        "Worked on developing and customizing Angular web Application for clients.",
+        "Worked as a Front-End Developer, building responsive and dynamic web applications using Angular (16/17), Angular Material, HTML, CSS, JavaScript, and TypeScript. Contributed to the company portfolio website and a diet management tool with multi-dashboard functionality, secure login, API integration, and optimized UI/UX design.",
     },
     {
       icon: Layers,
@@ -67,16 +67,9 @@ const ExperienceSection = () => {
       company: "DocBot PVT LTD",
       period: "2024-Present",
       description:
-        " building and optimizing user interfaces with a focus on responsive and interactive Web Application and compony portfolio.",
+        " Currently working as a Software Developer, creating scalable and user-friendly web applications with a focus on performance and responsive design. My role involves building dynamic UIs, integrating RESTful APIs, optimizing application performance, and collaborating with cross-functional teams to deliver high-quality products.",
     },
-    // {
-    //   icon: Code2,
-    //   title: "JavaScript Developer",
-    //   company: "OlovJS (Sera Programmer)",
-    //   period: "2023 - Present",
-    //   description:
-    //     "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
-    // },
+  
   ];
 
   return (
