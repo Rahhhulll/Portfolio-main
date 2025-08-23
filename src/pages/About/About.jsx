@@ -24,19 +24,22 @@ export default function About() {
 
             <div className="relative space-y-4">
               <p className="text-white">
-                I am a Software Developer with 2.5 years of experience, specializing in building responsive, user-friendly, and high-performing web applications. I have hands-on expertise in Angular (latest versions), JavaScript, TypeScript, HTML5, CSS3, and modern UI frameworks.{" "}
-                {/* <span className="font-bold text-white">
-                  As the creator of the OlovaJS UI Framework
-                </span> */}
-
-              Throughout my career, I have worked on creating dynamic dashboards, portfolio websites, and service-based applications, ensuring cross-browser compatibility and optimized performance.
-
-I collaborate effectively with backend developers, designers, and stakeholders to deliver scalable and business-driven solutions. Passionate about learning new technologies, I constantly improve my skills to stay updated with industry trends. My focus is on clean code, reusable components, and delivering seamless user experiences.
+                I am a Software Developer with 2.5 years of experience,
+                specializing in building responsive, user-friendly, and
+                high-performing web applications. I have hands-on expertise in
+                Angular (latest versions), JavaScript, TypeScript, HTML5, CSS3,
+                and modern UI frameworks.{" "} Throughout my career, I have worked on creating dynamic
+                dashboards, portfolio websites, and service-based applications,
+                ensuring cross-browser compatibility and optimized performance.
+                I collaborate effectively with backend developers, designers,
+                and stakeholders to deliver scalable and business-driven
+                solutions. Passionate about learning new technologies, I
+                constantly improve my skills to stay updated with industry
+                trends. My focus is on clean code, reusable components, and
+                delivering seamless user experiences.
               </p>
               <p className="text-white">
-                My focus is on making web development faster, easier, and
-                accessible to all developers. Currently, I'm expanding into
-                backend development to grow as a full-stack developer and create
+                 Currently, I'm expanding into backend development to grow as a full-stack developer and create
                 seamless, robust web applications.
               </p>
 
@@ -45,13 +48,11 @@ I collaborate effectively with backend developers, designers, and stakeholders t
                   <p className="text-white">
                     I'm a lifelong learner and innovator, driven by a desire to
                     contribute to the developer community with new ideas and
-                    tools that deliver real value. 
+                    tools that deliver real value.
                   </p>
 
                   <div className="mt-6 space-y-3">
-                   
                     <div className="flex items-center gap-2">
-                     
                       {/* <span className="text-white">OlovaJS</span> */}
                     </div>
                   </div>
