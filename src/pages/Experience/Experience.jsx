@@ -56,11 +56,11 @@ const ExperienceSection = () => {
    
     {
       icon: Layers,
-      title: "Software Developer",
-      company: "DocBot PVT LTD",
+      title: "Full Stack Developer",
+      company: "Accenture",
       period: "2024-Present",
       description:
-        " Currently working as a Software Developer, creating scalable and user-friendly web applications with a focus on performance and responsive design. My role involves building dynamic UIs, integrating RESTful APIs, optimizing application performance, and collaborating with cross-functional teams to deliver high-quality products.",
+        " Currently working as a Full Stack Developer, creating scalable and user-friendly web applications with a focus on performance and responsive design. My role involves building dynamic UIs, integrating RESTful APIs, optimizing application performance, and collaborating with cross-functional teams to deliver high-quality products.",
     },
 
      {

@@ -53,7 +53,14 @@ export default function Contact() {
 
     // Create a new FormData object to send to Web3Forms API
     const form = new FormData();
-    form.append("access_key", "90f4b8af-e590-42b0-beaf-10b18f66a703"); // Replace with your Web3Forms access key
+    const ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_KEY;
+    if (!ACCESS_KEY) {
+      setStatus(
+        "Contact form is not configured. Please provide VITE_WEB3FORMS_KEY in your environment."
+      );
+      return;
+    }
+    form.append("access_key", ACCESS_KEY);
     form.append("name", formData.name);
     form.append("email", formData.email);
     form.append("subject", formData.subject || "New Contact Form Submission");
@@ -122,7 +129,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Location</h3>
-                    <p className="text-gray-400">Kharadi, Pune</p>
+                    <p className="text-gray-400">Pune</p>
                   </div>
                 </div>
               </div>

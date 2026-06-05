@@ -61,7 +61,7 @@ const SkillsSection = () => {
       color: "text-blue-400",
       skills: [
           { name: "JavaScript", icon: <SiJavascript className="w-4 h-4 text-yellow-400" /> },
-        { name: "React", icon: <FaReact className="w-4 h-4 text-[#61DAFB]" /> },
+      
         {
           name: "Angular",
           icon: <SiAngular className="w-4 h-4 text-red-600" />, // Angular red color
@@ -82,6 +82,11 @@ const SkillsSection = () => {
           name: "CSS3",
           icon: <BsFileEarmarkCode className="w-4 h-4 text-[#1572B6]" />,
         },
+
+         {
+          name: "Material UI",
+          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#1572B6]" />,
+        },
       ],
     },
     {
@@ -93,10 +98,7 @@ const SkillsSection = () => {
           name: "Node.js",
           icon: <FaNodeJs className="w-4 h-4 text-[#339933]" />,
         },
-        // {
-        //   name: "Python",
-        //   icon: <FaPython className="w-4 h-4 text-[#3776AB]" />,
-        // },
+       
         {
           name: "PostgreSQL",
           icon: <SiPostgresql className="w-4 h-4 text-[#336791]" />,
@@ -120,7 +122,6 @@ const SkillsSection = () => {
       title: "UI/UX Design",
       color: "text-purple-400",
       skills: [
-        // { name: "Figma", icon: <FaFigma className="w-4 h-4 text-[#F24E1E]" /> },
         {
           name: "Responsive Design",
           icon: <Layout className="w-4 h-4 text-[#38B2AC]" />,
@@ -169,10 +170,7 @@ const SkillsSection = () => {
           icon: <SiWebpack className="w-4 h-4 text-[#8DD6F9]" />,
         },
         { name: "Redux", icon: <SiRedux className="w-4 h-4 text-[#764ABC]" /> },
-        // {
-        //   name: "Firebase",
-        //   icon: <SiFirebase className="w-4 h-4 text-[#FFCA28]" />,
-        // },
+       
         { name: "Vercel", icon: <SiVercel className="w-4 h-4 text-white" /> },
         { name: "Vite", icon: <SiVite className="w-4 h-4 text-[#646CFF]" /> },
       ],
@@ -190,14 +188,7 @@ const SkillsSection = () => {
           name: "SVG Animation",
           icon: <MdAnimation className="w-4 h-4 text-[#00C853]" />,
         },
-        // {
-        //   name: "3D Modeling",
-        //   icon: <Cpu className="w-4 h-4 text-[#7C4DFF]" />,
-        // },
-        // {
-        //   name: "Motion Graphics",
-        //   icon: <MdAnimation className="w-4 h-4 text-[#FF6D00]" />,
-        // },
+       
       ],
     },
   ];

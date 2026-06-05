@@ -17,9 +17,9 @@ const EducationSection = () => {
   
     {
       degree: "BSC IT",
-      school: "Sikkim Professional University",
+      school: "Vinayaka Missions Sikkim University",
       mascot: "📗",
-      year: "2022-2023",
+      year: "2021-2023",
       achievements: ["67%", ""],
       skills: ["DSA", "C++", "SQL", "DBMS"],
       description:
@@ -30,7 +30,7 @@ const EducationSection = () => {
       degree: "Diploma in Computer Engineering",
       school: "R C Patel Polytechnic Shirpur",
       mascot: "📘",
-      year: "2010-2021",
+      year: "2019-2021",
       achievements: ["73%",],
       skills: ["C", "C++", "DSA", "CSS"],
       description:

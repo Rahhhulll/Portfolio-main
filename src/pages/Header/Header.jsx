@@ -13,18 +13,20 @@ import { Link, useLocation } from "react-router-dom";
 
 export default function Header() {
   const location = useLocation();
-  const [activeLink, setActiveLink] = useState(() => {
-    const path = location.pathname.substring(1) || "home";
-    return path;
-  });
+  const [activeLink, setActiveLink] = useState("");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowWidth, setWindowWidth] = useState(0);
 
   useEffect(() => {
-    const handleResize = () => setWindowWidth(window.innerWidth);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
+    // Initialize values in effect to avoid hydration mismatches
+    const path = location.pathname.substring(1) || "home";
+    setActiveLink(path);
+
+    const handleResize = () => setWindowWidth(window.innerWidth || 0);
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, [location]);
 
   const navLinks = [
     { id: "home", icon: FaHome, text: "Home", path: "/" },

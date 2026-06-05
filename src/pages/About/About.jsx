@@ -1,14 +1,11 @@
-import HeroImg from "@/assets/images/hero.jpeg";
-import OlovaLogo from "@/assets/images/olova.png";
+import HeroImg from "@/assets/images/hero.png";
 
 export default function About() {
   return (
     <>
       <section id="about" className="py-16 md:py-32  text-white bg-[#04081A]">
         <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
-          {/* <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl text-white">
-            Developer, Designer, Creator, Innovator
-          </h2> */}
+          
           <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
             <div className="relative mb-6 sm:mb-0">
               <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl p-px from-zinc-300 to-transparent">
@@ -24,7 +21,7 @@ export default function About() {
 
             <div className="relative space-y-4">
               <p className="text-white">
-                I am a Software Developer with 2.5 years of experience,
+                I am a Full Stack Developer with 3.6+ years of experience,
                 specializing in building responsive, user-friendly, and
                 high-performing web applications. I have hands-on expertise in
                 Angular (latest versions), JavaScript, TypeScript, HTML5, CSS3,
